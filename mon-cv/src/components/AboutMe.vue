@@ -23,13 +23,13 @@
         <v-card-title v-if="$vuetify.breakpoint.lgAndUp">
         </v-card-title>
         <v-card-text class="desc-aboutme">
-          <div>I am a soon-to-be software engineer and currently an apprentice web back-end developer with a love for coding.
+          <div>I am a soon-to-be software engineer and currently a web back-end developer apprentice with a forever growing love for coding.
             <br/>
             My studies have provided me with a strong foundation in programming languages, algorithms, and data structures.
             <br/>
             Throughout my apprenticeship, I have been actively involved in building and maintaining web applications, with a focus on back-end development.
             <br/>
-            I am a detail-oriented individual with a strong work ethic, eager to continue learning and growing as a developer.
+            I am a detail-oriented individual with a strong work ethic and I am eager to continue learning and growing as a developer.
             <br/>
             I am excited about the endless possibilities that technology offers and look forward to contributing my skills to create innovative solutions.</div>
         </v-card-text>
