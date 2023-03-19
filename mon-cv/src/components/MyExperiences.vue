@@ -40,10 +40,10 @@ export default {
             "Identify and troubleshoot bugs.",
             "Enhance user experience.",
             "Add new features to the web site.",
-            "improve website performance and scalability.",
+            "Improve website performance and scalability.",
             "Containerize and deploy the website.",
             "Ensure a visually appealing layout.",
-            "Creating custom content types and designing website templates."
+            "Create custom content types and design website templates."
           ]
         },
         {
@@ -54,11 +54,11 @@ export default {
           tools: ["HTML / CSS", "MySQL", "Oracle", "E2DO (in-house framework based on PHP and JS)", "VueJS"],
           tasks: [
             "Led the end-to-end development of the platform.",
-            "Add new features to the web site (Gantt, Messaging system, Electronic document signature...).",
+            "Added new features to the web site (Gantt, Messaging system, Electronic document signature...).",
             "Oversaw both front-end and back-end development.",
             "Met the needs of our clients in the construction industry.",
-            "Ensure that the platform was scalable and user-friendly.",
-            "Identify and troubleshoot bugs."
+            "Ensured that the platform was scalable and user-friendly.",
+            "Identified and troubleshot bugs."
           ]
         }
       ]

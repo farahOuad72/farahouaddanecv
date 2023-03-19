@@ -23,7 +23,7 @@
         <v-card-title v-if="$vuetify.breakpoint.lgAndUp">
         </v-card-title>
         <v-card-text class="desc-aboutme">
-          <div>I am a freshly graduated software engineer and currently an apprentice web back-end developer with a love for coding.
+          <div>I am a soon-to-be software engineer and currently an apprentice web back-end developer with a love for coding.
             <br/>
             My studies have provided me with a strong foundation in programming languages, algorithms, and data structures.
             <br/>

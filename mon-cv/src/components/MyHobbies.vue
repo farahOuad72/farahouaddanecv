@@ -47,15 +47,15 @@ export default {
     cards: [
       { title: 'Theater', src: require('@/assets/images/img_theater.jpg'),
         desc:"Five years of study in Theatre Arts, Marrakech Institution (2013-2018)",
-        long_desc:"Studied theatre arts for five years, including courses in acting, directing, playwriting, and theatre history.\n" +
-            "Participated in numerous theatre productions as an actor and crew member, gaining experience in all aspects of theatre production, from auditions to performance.\n" +
+        long_desc:"Studied theater arts for five years, including courses in acting, directing, playwriting, and theater history.\n" +
+            "Participated in numerous theater productions as an actor and crew member, gaining experience in all aspects of theater production, from auditions to performances.\n" +
             "Developed skills in public speaking, improvisation and performance opportunities.",
         flex: 6
       },
       { title: 'Piano', src: require('@/assets/images/img_piano.jpg'),
         desc:"Six years of music theory and nine years of piano, Marrakech Conservatory (2008-2017)",
         long_desc: "Studied music theory for six years, covering topics such as notation, harmony, rhythm, and musical analysis.\n" +
-            "Received piano instruction for nine years, developing skills in technique, interpretation, sight-reading, and performance.",
+            "Received piano instruction for nine years, developed skills in technique, interpretation, sight-reading, and performance.",
         flex: 6
       },
       { title: 'Painting', src: require('@/assets/images/img_painting.png'),
