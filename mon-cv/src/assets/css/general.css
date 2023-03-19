@@ -1,0 +1,112 @@
+.v-main {
+    background-color: var(--secondary-color);
+}
+
+
+#main-view{
+    margin: 4em;
+}
+html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 64px;
+}
+
+a[href^="#"] {
+    transition: all 1s ease;
+}
+#my-photo {
+    margin: 2%;
+}
+.card-headers{
+    background-color: var(--third-color);
+    height: 3rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.about-me {
+    padding: 10px;
+    text-align: center;
+    position: relative;
+    font-family: "Open Sans", sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    color: #333;
+    line-height: 1.5;
+}
+
+.about-me::before,
+.about-me::after {
+    content: '';
+    position: absolute;
+    width: calc(100% + 10px);
+    height: calc(100% + 10px);
+    top: -5px;
+    left: -5px;
+}
+.about-me::after {
+    border-top: 2px solid var(--fourth-color);
+    border-left: 2px solid var(--fourth-color);
+    transform: rotate(-3deg);
+}
+
+.about-me::before {
+    border-bottom: 2px solid var(--fourth-color);
+    border-right: 2px solid var(--fourth-color);
+    transform: rotate(3deg);
+}
+#avatar-photo{
+    height: 16rem !important;
+    width: 9rem !important;
+
+}
+.timeline-edu .v-timeline-item__inner-dot.primary{
+    background-color: var(--secondary-color) !important;
+
+}
+.timeline-edu .theme--dark.v-icon{
+    color: var(--fourth-color) !important;
+}
+.v-window__prev,.v-window__next{
+    background: var(--secondary-color) !important;
+}
+.v-window__prev .v-icon,.v-window__next .v-icon{
+    color: var(--third-color) !important;
+}
+.hobbies{
+    padding: 2rem;
+}
+.v-timeline{
+    padding: 75px;
+}
+
+@media screen and (max-width: 1024px) {
+    .about-me {
+        font-size: 18px !important;
+    }
+    #avatar-photo {
+        width: 8rem !important;
+    }
+    html {
+        font-size: 10px;
+    }
+    .box:nth-child(odd) {
+        transform: skew(-8deg) !important;
+    }
+    .container {
+        width: 75% !important;
+        margin: 1rem auto !important;
+    }
+    .icon-contact{
+        font-size: 25px !important;
+    }
+    .v-timeline{
+        padding: 24px 10px 0 10px!important;
+    }
+}
+@media print {
+    img {
+        display: block;
+    }
+}

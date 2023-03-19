@@ -1,0 +1,18 @@
+#logo img {
+    cursor: grab;
+}
+#logo{
+    border-radius: 0% !important;
+}
+.v-toolbar__content{
+    padding: 4px 6%;
+}
+body {
+    color: var(--fourth-color) !important;
+}
+.v-tab, .v-tabs-slider{
+    color: var(--fourth-color) !important;
+}
+.theme--dark.v-btn{
+    color: var(--fourth-color) !important;
+}
