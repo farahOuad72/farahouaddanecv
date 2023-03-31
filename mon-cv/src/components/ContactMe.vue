@@ -21,7 +21,7 @@
               </v-col>
               <v-col cols="10">
                 <h4> Phone </h4>
-                <a href="tel:" target="_blank">+33752991002</a>
+                <a href="tel:" target="_blank">+33752991004</a>
               </v-col>
               <v-col cols="2" align-self="center">
                 <v-icon class="icon-contact" icon="mdi-email">mdi-email</v-icon>
@@ -42,11 +42,6 @@
 <script>
 export default {
   name: "AboutMe",
-
-  data: () => ({
-    keys:["test","test","test"]
-  }),
-
   methods: {
 
   },
